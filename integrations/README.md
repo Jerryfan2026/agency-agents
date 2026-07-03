@@ -89,6 +89,9 @@ directly into `~/.github/agents/` and `~/.copilot/agents/` without conversion.
 ./scripts/install.sh --tool copilot
 ```
 
+For VS Code users: reload the window after installation and verify
+`chat.agentFilesLocations` includes your install path if agents do not appear.
+
 See [github-copilot/README.md](github-copilot/README.md) for details.
 
 ---

@@ -782,6 +782,11 @@ Then activate in GitHub Copilot:
 Use the Frontend Developer agent to review this component.
 ```
 
+**VS Code quick path / 在 VS Code 快速使用：**
+- Install GitHub Copilot extension and sign in
+- Run `Developer: Reload Window` after installing agents
+- If agents don't appear, check VS Code setting `chat.agentFilesLocations`
+
 See [integrations/github-copilot/README.md](integrations/github-copilot/README.md) for details.
 </details>
 

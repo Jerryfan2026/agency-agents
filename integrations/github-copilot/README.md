@@ -1,4 +1,4 @@
-# GitHub Copilot Integration (VS Code Friendly)
+# GitHub Copilot Integration for VS Code
 
 The Agency works with GitHub Copilot out of the box. No conversion needed —
 agents use the existing `.md` + YAML frontmatter format.
@@ -47,7 +47,7 @@ Use the Reality Checker agent to verify this feature is production-ready.
 
 1. Run `Developer: Reload Window`
 2. Verify files exist in `~/.github/agents/` or `~/.copilot/agents/`
-3. In VS Code Settings, confirm `chat.agentFilesLocations` includes your install path
+3. In VS Code Settings (`Ctrl/Cmd + ,`), search `chat.agentFilesLocations` and confirm it includes your install path
 4. Restart VS Code if needed
 
 ### Installed but still not discovered / 已安装但未被识别

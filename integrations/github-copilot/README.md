@@ -15,7 +15,7 @@ agents use the existing `.md` + YAML frontmatter format.
 # Copy all agents to your GitHub Copilot agent directories
 ./scripts/install.sh --tool copilot
 
-# Or manually copy one division (example: engineering)
+# Or manually copy one team/division (example: engineering)
 cp engineering/*.md ~/.github/agents/
 cp engineering/*.md ~/.copilot/agents/
 ```
@@ -28,8 +28,8 @@ After install, the default paths are:
 ## Use in VS Code / 在 VS Code 里使用
 
 1. Open VS Code
-2. Open Copilot Chat (or Agent mode)
-3. Start a new chat and call an agent by name
+2. Open the GitHub Copilot Chat panel in VS Code
+3. Start a normal chat (agents are invoked from chat by name)
 
 Example prompts:
 
